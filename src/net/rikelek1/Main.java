@@ -58,12 +58,12 @@ public class Main extends Application {
 
         shutdownButton.setOnAction(e -> {
             setTimes();
-            execCommand("Shutdown");
+            execCommand("shutdown");
         });
 
         restartButton.setOnAction(e -> {
             setTimes();
-            execCommand("Restart");
+            execCommand("restart");
         });
 
         abortButton.setOnAction(e -> execCommand("abort"));
